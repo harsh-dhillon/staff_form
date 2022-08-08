@@ -1,0 +1,7 @@
+.error {
+    color: #DC143C;
+    font-weight: 400;
+}
+.form-control.error {
+    border-color: #DC143C;
+}
