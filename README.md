@@ -12,4 +12,4 @@ CREATE TABLE `staff_info_table` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 4. Clone the repo and place it inside, ``` C:\xampp\htdocs```
-5. Open the page ``` http://localhost/staff_form```
+5. Open the page ``` http://localhost/<folder-name>```
