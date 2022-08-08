@@ -38,8 +38,9 @@ $(function() {
                 required: "The occupation field is required."
             }
         },
-        submitHandler: function(form) {
-            form.submit();
+        // Needed to shift validation errors to next line!
+        errorPlacement: function (error, element) {
+            error.insertAfter(element.closest('div'));
         }
     });
 });
